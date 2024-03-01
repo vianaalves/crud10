@@ -1,0 +1,39 @@
+body{
+    background-image:linear-gradient(45deg,rgb(103, 105, 105),rgb(92, 92, 92));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div{
+    background-image:linear-gradient(45deg,rgb(5, 5, 5),rgb(0, 231, 69));
+    position: absolute;/*encaixa a div na posição */
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    padding:15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+button{
+    
+    background-color:rgb(32, 255, 69);
+    width: 100%;
+    padding: 5px; 
+    color: rgb(48, 43, 43);
+    font-size: 15px;
+    border-radius: 15px;
+
+}
+
+button:hover{
+    background-image:linear-gradient(45deg,rgb(0, 106, 255),black);
+    cursor: pointer;
+}
